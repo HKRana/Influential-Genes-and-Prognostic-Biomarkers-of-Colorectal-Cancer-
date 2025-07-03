@@ -10,4 +10,8 @@ Colorectal cancer (CRC) is the second leading cause of cancer deaths, and its in
 
 ## Dataset used: [Download Dataset](https://drive.google.com/drive/folders/1ld7jrUADl9o7cMsZr9IjEVUZLZed1qIi?usp=sharing)
 
-<img src="Process_Diagram.pdf" alt="My Diagram" width="400"/>
+### Overview of the Proposed Model:
+The proposed model for identifying influential genes of CRC followed a systematic sequence of steps. Initially, the TCGA dataset was collected from cBioPortal. We used RNA-Seq data and clinical information from the TCGA dataset to find the influential genes of CRC. We preprocessed the RNA-Seq data by filling missing values with the row mean of Z-scores for each gene. The processed RNA-Seq data was divided into two groups according to the early and late stages of cancer. It is important to note that cancer stages were extracted from the clinical data, where $Stage I$ was considered as the early stage and $Stage II-IV$ as the late stage. Afterward, the Kruskal-Wallis H test, followed by Bonferroni correction, was applied to identify the influential genes of CRC. Subsequently, we used bioinformatics approaches to analyze signaling and ontological pathways, PPI networks, TF-gene interactions, and gene-miRNA interactions to assess the functional significance of these influential genes. We applied the CoxPH model and KM estimator to the transcriptomic and clinical features of the influential genes for predicting the survival probability. Moreover, benchmark databases (OMIM, dbGaP, and DisGeNET) and ROC analysis were employed to validate the findings of our study. Lastly, we recommended some chemical compounds that might be explored as potential treatments for CRC.
+![Process_Diagram](Process_Diagram.png) </br>
+*Figure 1: The graphical illustration of the proposed model.*
+##
