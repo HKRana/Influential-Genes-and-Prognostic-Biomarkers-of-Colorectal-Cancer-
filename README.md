@@ -1,6 +1,6 @@
 **Identification of Influential Genes and Prognostic Biomarkers of Colorectal Cancer Using Bioinformatics and Machine Learning Approaches**
 
-Humayan Kabir Rana, and Boshir Ahmed
+Humayan Kabir Rana, and Boshir Ahmed\\
 Dept. of Computer Science and Engineering, Rajshahi University of Engineering & Technology (RUET),
 Rajshahi, Bangladesh
 Dept. of Computer Science and Engineering, Green University of Bangladesh, Narayanganj-1461, Dhaka,
