@@ -9,3 +9,10 @@
 3. The code will provide a list of influential genes with P value, Adj. P value and logFC
 4. The code will also provide survival information and survival curves of the genes
 ##
+
+**ROC Analysis of the Influential Genes and Model:**
+1. The folder "Code for Validation" contains two files for the ROC analysis for the influential genes and model
+2. The file "ROC of the IFGs.R" is for the ROC analysis of the influential genes
+3. The file "ROC of the model.R" is for the ROC analysis of the model
+
+##
