@@ -1,1 +1,1 @@
-## This code is for identification of influential genes, survival analysis and validation
+## This code is for the identification of influential genes, survival analysis, and validation
